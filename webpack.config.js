@@ -15,6 +15,12 @@ const config = {
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
+    alias: {
+      '@pages': resolve(__dirname, './src/pages'),
+      '@reducers': resolve(__dirname, './src/reducers'),
+      '@common': resolve(__dirname, './src/common'),
+      '@APIs': resolve(__dirname, './src/APIs'),
+    },
   },
   module: {
     rules: [
