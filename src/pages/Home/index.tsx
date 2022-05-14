@@ -1,14 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import Navigations from '@layouts/Navigations';
+import Header from '@layouts/Header';
 
 const Home: React.FC = () => {
   return (
     <div>
-      <header>
-        <Navigations />
-      </header>
+      <Header />
     </div>
   );
 }
