@@ -1,9 +1,8 @@
-import './style.css';
 import React from 'react';
 
 const Wrapper: React.FC = ({ children }) => {
   return (
-    <div className="wrapper">
+    <div className="max-w-[1200px] mx-auto">
       {children}
     </div>
   );
