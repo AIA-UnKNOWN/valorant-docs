@@ -19,7 +19,12 @@ const Navigations: React.FC = () => {
       <div className="py-[40px]">
         {navigations.map(nav => (
           <Link to={nav.link} key={nav.link}>
-            <span className="text-[16px] ml-2">
+            <span
+              className="relative text-[16px] text-white ml-10
+              hover:before:w-full
+              before:absolute before:-bottom-2 before:content-[''] before:inline-block before:h-[2px]
+              before:bg-red before:w-0 before:transition-all before:duration-300"
+            >
               {nav.label}
             </span>
           </Link>
