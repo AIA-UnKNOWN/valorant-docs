@@ -22,6 +22,7 @@ const config = {
       '@APIs': resolve(__dirname, './src/APIs'),
       '@layouts': resolve(__dirname, './src/layouts'),
       '@animations': resolve(__dirname, './src/animations'),
+      '@images': resolve(__dirname, './images'),
     },
   },
   module: {
@@ -31,6 +32,19 @@ const config = {
         use: "babel-loader",
         exclude: /node_modules/,
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
+        test: /\.css$/i,
+        include: resolve(__dirname, 'src'),
+        use: ['style-loader', 'css-loader', 'postcss-loader']
+      }
     ],
   },
   plugins: [
