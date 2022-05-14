@@ -9,13 +9,13 @@ const Navigations: React.FC = () => {
 
   return (
     <nav className="flex justify-between items-center">
-      <div>
+      <Link to="/">
         <img
           className="w-[60px] h-[60px] object-cover"
           src={valorantLogo}
           alt="valorant logo"
         />
-      </div>
+      </Link>
       <div className="py-[40px]">
         {navigations.map(nav => (
           <Link to={nav.link} key={nav.link}>
