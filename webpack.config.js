@@ -20,6 +20,8 @@ const config = {
       '@reducers': resolve(__dirname, './src/reducers'),
       '@common': resolve(__dirname, './src/common'),
       '@APIs': resolve(__dirname, './src/APIs'),
+      '@layouts': resolve(__dirname, './src/layouts'),
+      '@animations': resolve(__dirname, './src/animations'),
     },
   },
   module: {
