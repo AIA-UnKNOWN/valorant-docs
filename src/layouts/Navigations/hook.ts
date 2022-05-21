@@ -22,4 +22,5 @@ const useNavigations = () => {
   return { navigations };
 }
 
+export type { Navigation };
 export default useNavigations;

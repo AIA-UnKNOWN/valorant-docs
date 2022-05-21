@@ -1,0 +1,3 @@
+#nav-toggler:checked ~ #nav-links {
+    display: block;
+}
