@@ -7,7 +7,7 @@ const Title: React.FC<{
 }) => {
   return (
     <p
-      className="text-center text-[30px] font-bold mb-28 relative
+      className="text-center text-[25px] md:text-[30px] font-bold mb-16 md:mb-28 relative
       before:content-[''] before:inline-block before:h-[2px] before:w-[100px]
       before:bg-red before:absolute before:-bottom-3 before:left-1/2
       before:-translate-x-1/2"

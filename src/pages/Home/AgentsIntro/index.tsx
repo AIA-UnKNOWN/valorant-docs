@@ -14,14 +14,17 @@ const AgentsIntro: React.FC = () => {
           label="Play With Your Favorite Agents"
         />
         <Wrapper>
-          <div className="flex justify-around items-center">
+          <div
+            className="flex justify-center lg:justify-around items-center
+            flex-wrap"
+          >
             <img
-              className="w-[532px] h-[259px] object-cover"
+              className="aspect-auto w-full md:w-[532px] md:h-[259px] object-cover"
               src={valorantAgents}
               alt="Valorant Agents"
             />
-            <div>
-              <p className="text-[20px] w-[470px] text-center">
+            <div className="mt-4 lg:mt-0">
+              <p className="text-[16px] md:text-[20px] md:w-[470px] text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper eu orci odio in. Non dolor mattis at faucibus arcu rutrum. Magnis phasellus faucibus aliquet potenti luctus aliquet velit consequat. Sit tortor mauris sit ut risus morbi ac. In molestie gravida malesuada ornare viverra fermentum lobortis.
               </p>
             </div>
