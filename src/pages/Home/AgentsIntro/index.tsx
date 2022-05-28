@@ -1,4 +1,4 @@
-import valorantAgents from '@images/valorant-agents.png';
+import valorantAgents from '@images/valorant-agents.jpg';
 import React from 'react';
 
 import Wrapper from '@layouts/Wrapper';
