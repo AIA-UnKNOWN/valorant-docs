@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '@layouts/Header';
 import AgentsIntro from './AgentsIntro';
 import WeaponsIntro from './WeaponsIntro';
+import MapsIntro from './MapsIntro';
 
 const Home: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Home: React.FC = () => {
       <Header />
       <AgentsIntro />
       <WeaponsIntro />
+      <MapsIntro />
     </div>
   );
 }
